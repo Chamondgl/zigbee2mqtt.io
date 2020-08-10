@@ -100,7 +100,7 @@ This step is optional and can be skipped as the device page will automatically b
 On the next release of Zigbee2mqtt, the documentation will be updated and your device file will be linked in `docs/information/supported_devices.md` automatically.
 
 ### 5. (Optional) Add home assistant configuration for your device
-In order to automatically discover this device in home assistant your device needs to be added to `mapping` in `lib/extension/homeassistant.js`.
+In order to automatically discover this device in home assistant your device needs to be added to `mapping` in `lib/extension/homeassistant.js` by creating a pull request [here](https://github.com/Koenkk/zigbee2mqtt/blob/master/lib/extension/homeassistant.js).
 
 ### 6. Done!
 Now it's time to submit a pull request to [zigbee-herdsman-converters](https://github.com/Koenkk/zigbee-herdsman-converters) so this device is supported out of the box by Zigbee2mqtt. :smiley:
